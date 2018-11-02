@@ -1,0 +1,196 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Proxima nova thin;
+	
+}
+header {
+  background: url('video.png');
+  background-size: cover;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+.container
+{
+ 
+	width: 1080px;
+	margin: 0 auto;
+	
+}
+.logo
+{
+	float: left;
+
+	
+	
+
+}
+.heding
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -9998;
+}
+.logo 
+ {
+ 	margin-right:  150px;
+ }
+
+{
+	float:right;
+	
+
+
+
+}
+
+.menu
+{
+	
+	padding:0;
+	margin: 0;
+	display: block;
+
+}
+.menu li
+{
+
+	float:left;
+	display: block;
+	margin-right: 25px;
+	margin-top: 13px;
+	
+}
+.menu li a 
+{
+
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+.menu li a:hover
+{
+	color:yellow;
+
+}
+h1
+{
+	font-size: 100px;
+	color:white;
+	padding: 0;
+	padding-top: 240px;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 400px;
+
+}
+header h2
+{
+	font-size: 25px;
+	color:white;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.muve
+{
+	background-color: white;
+	height: 650px;
+
+}
+.muve h2
+{
+    font-size: 25px;
+	color:black;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.all
+{
+margin-top: 27px;
+margin-bottom: 27px;
+height: 100%;
+width: 100%;
+padding-bottom: 30px;
+}
+.allf
+{
+
+margin-bottom: 20px;
+height: 260px;
+width: 540px;
+float: left;
+text-align: center;
+}
+.allf img
+{
+width:  500px;
+height:  260px;
+}
+
+.allf h2
+{
+    font-size: 25px;
+	color:black;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+	
+}
+
+
+footer
+{
+	background:black;
+	padding-bottom: 70px;
+}
+.muve2
+{
+	background-color: #0f2178;
+	height: 360px;
+}
+.muve2 h2
+{
+    font-size: 25px;
+	color:white;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.vntu img
+{
+	padding-top: 20px;
+	height: 500px;
+	margin:auto;
+	display: block;
+}

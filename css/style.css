@@ -1,0 +1,303 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Proxima nova thin;
+	
+}
+header {
+  background: url('video.png');
+  background-size: cover;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+.container
+{
+ 
+	width: 1080px;
+	margin: 0 auto;
+	
+}
+.logo
+{
+	float: left;
+
+	
+	
+
+}
+.heding
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -9998;
+
+}
+
+.logo 
+ {
+ 	margin-right:  150px;
+ }
+
+{
+	float:right;
+	
+
+
+
+}
+
+.menu
+{
+	
+	padding:0;
+	margin: 0;
+	display: block;
+
+}
+.menu li
+{
+
+	float:left;
+	display: block;
+	margin-right: 25px;
+	margin-top: 13px;
+	
+}
+.menu li a 
+{
+
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+.menu li a:hover
+{
+	color:yellow;
+
+}
+h1
+{
+	font-size: 100px;
+	color:white;
+	padding: 0;
+	padding-top: 240px;
+	margin: 0;
+	text-align: center;
+
+}
+header h2
+{
+	font-size: 25px;
+	color:white;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.button
+{
+	display: block;
+	width: 143px;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	border: 2px solid white;
+	color: white;
+	margin: auto;
+	margin-bottom: 258px;
+	transition: 0.2s ease-out; 
+	 
+}
+.button:hover
+{
+	border: 2px solid yellow;
+	background-color: #001a9c;
+}
+.roshen
+{
+	padding: 0;
+	margin: 0;
+    border-top: 2px solid #001a9c;
+	height: 721px;
+	background-color: white;
+}
+ .rosh
+{
+margin-top: 27px;
+margin-bottom: 27px;
+}
+.rosh2
+{
+
+
+height: 200px;
+max-width: 358px;
+float: left;
+text-align: center;
+}
+.rosh2 img
+{
+width:  100%;
+height:  100%;
+}
+
+.roshen h2
+{
+    font-size: 25px;
+	color:black;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+	
+}
+.rosh2 p
+{
+	font-family: Proxima nova;
+	font-size: 14pt;
+	width: 90%;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.function
+{
+	border-top: 2px solid #001a9c;
+	height: 280px;
+	background-color: #0f2178; 
+	margin-bottom: 20px;
+	margin: 0;
+	padding: 0;
+}
+.fun
+{
+margin-top: 27px;
+margin-bottom: 27px;
+}
+.funtype
+{
+
+margin-left: 70px;
+width: 180px;
+float: left;
+text-align: center;
+}
+.funtype img
+{
+padding: 0;
+margin: 0;
+max-width:  93px;
+max-height:  71px;
+}
+.funtype p
+{
+
+	color: white;
+	text-align: center;
+	
+	font-size: 14pt;
+	margin-bottom: 27px;
+
+}
+.funtype h3
+{
+	color:yellow;
+	font-size: 16pt;
+	font-family: Times new roman;
+}
+#allfont
+{
+	border-top: 1px solid #0f2178;
+	background-color: white;
+	min-height:1190px;
+	padding:0
+	margin:0;
+	padding-bottom: 30px;
+}
+ #allfont h2
+ {
+ 	font-size: 25px;
+	color:black;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+ }
+ .all
+{
+margin-top: 27px;
+margin-bottom: 27px;
+height: 100%;
+width: 100%;
+padding-bottom: 30px;
+}
+.allf
+{
+
+margin-bottom: 20px;
+height: 260px;
+width: 530px;
+float: left;
+text-align: center;
+}
+.allf img
+{
+width:  100%;
+height:  100%;
+}
+
+.allf h2
+{
+    font-size: 25px;
+	color:black;
+	padding: 0;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+	
+}
+.allf p
+{
+	font-family: Proxima nova;
+	font-size: 14pt;
+	width: 95%;
+	text-align: justify;
+	padding-left: 10px;
+
+}
+footer
+{
+	background:black;
+	padding-bottom: 70px;
+}
+
+/*--------------------------------------------------------
+
+                       ROSHEN HTML
+
+---------------------------------------------------------*/
