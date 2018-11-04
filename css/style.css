@@ -198,8 +198,6 @@ margin-bottom: 27px;
 }
 .funtype
 {
-
-
 width: 25%;
 float: left;
 text-align: center;
@@ -323,6 +321,18 @@ footer
 	{
        font-size: 10pt;
 	}
+	.rosh2 p
+	{
+		font-size: 12pt;
+	}
+	.funtype p
+	{
+		font-size: 12pt;
+	}
+	.rosh2 img
+	{
+		height: 70%;
+	}
 }
 @media (max-width: 723px)
 {
@@ -335,6 +345,40 @@ footer
 @media (max-width: 480px)
 {
 	
+	.rosh2
+	{
+		width: 100%;
+		margin:0;
+		padding: 0;
+
+	}
+	.roshen
+	{
+		height: 1840px;
+	}
+	.funtype
+	{
+	width: 50%;
+	}
+	.function
+	{
+		height: 415px;
+	}
+	.allf
+	{
+		width: 100%;
+	}
+	#allfont
+	{
+		height: 2250px;
+	}
+}
+@media (max-width: 480px)
+{
+	h1
+	{
+		font-size: 60px;
+	}
 }
 
 
