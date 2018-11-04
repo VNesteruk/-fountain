@@ -23,7 +23,7 @@ header {
 .container
 {
  
-	width: 1080px;
+	max-width: 1080px;
 	margin: 0 auto;
 	
 }
@@ -45,7 +45,7 @@ header {
 	background-color: black;
 	opacity: 0.7;
 	z-index: -9998;
-
+    
 }
 
 .logo 
@@ -117,7 +117,6 @@ header h2
 {
 	display: block;
 	width: 143px;
-
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-decoration: none;
@@ -133,7 +132,6 @@ header h2
 .button:hover
 {
 	border: 2px solid yellow;
-	background-color: #001a9c;
 }
 .roshen
 {
@@ -141,6 +139,7 @@ header h2
 	margin: 0;
     border-top: 2px solid #001a9c;
 	height: 721px;
+	min-width: 100%;
 	background-color: white;
 }
  .rosh
@@ -153,7 +152,7 @@ margin-bottom: 27px;
 
 
 height: 200px;
-max-width: 358px;
+width: 33.3%;
 float: left;
 text-align: center;
 }
@@ -200,8 +199,8 @@ margin-bottom: 27px;
 .funtype
 {
 
-margin-left: 70px;
-width: 180px;
+
+width: 25%;
 float: left;
 text-align: center;
 }
@@ -260,7 +259,7 @@ padding-bottom: 30px;
 
 margin-bottom: 20px;
 height: 260px;
-width: 530px;
+width: 50%;
 float: left;
 text-align: center;
 }
@@ -301,3 +300,41 @@ footer
                        ROSHEN HTML
 
 ---------------------------------------------------------*/
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-box-sizing: border-box;
+
+@media (max-width: 992px)
+{
+	
+}
+@media (max-width: 760px)
+{
+	.rosh2
+	{
+		width: 50%;
+		margin-bottom: 5px;
+	}
+	.roshen
+	{
+		height: 1105px;
+	}
+	.allf p
+	{
+       font-size: 10pt;
+	}
+}
+@media (max-width: 723px)
+{
+	.menu 
+	{
+		
+		display: block;
+	}
+}
+@media (max-width: 480px)
+{
+	
+}
+
+

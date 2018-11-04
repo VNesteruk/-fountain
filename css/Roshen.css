@@ -32,7 +32,7 @@ header
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
+  
 
   height: auto;
   z-index: -9999;
@@ -133,7 +133,7 @@ margin-bottom: 27px;
 
 margin-bottom: 20px;
 height: 260px;
-width: 530px;
+width: 50%;
 float: left;
 text-align: center;
 }
@@ -145,6 +145,7 @@ height:  100%;
 .allf p
 {
 	margin-left: 10px;
+	width: 100%;
 }
 .shad
 {
@@ -199,4 +200,12 @@ footer
 {
 	background:black;
 	padding-bottom: 70px;
+}
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-box-sizing: border-box;
+
+@media (max-width: 992px)
+{
+	
 }
