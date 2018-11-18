@@ -11,7 +11,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	font-family: Proxima Nova Thin;
+	font-family: Proxima Nova Thin, sans-serif;
 	
 }
 header {
@@ -265,7 +265,7 @@ height:  100%;
 }
 .rosh2 p
 {
-	font-family: Proxima Nova Thin;
+	font-family: Proxima Nova Thin, sans-serif;
 	font-size: 14pt;
 	width: 90%;
 	text-align: center;
@@ -313,7 +313,7 @@ max-height:  71px;
 {
 	color:yellow;
 	font-size: 16pt;
-	font-family: Proxima Nova Thin;
+	font-family: Proxima Nova Thin, sans-serif;
 }
 #allfont
 {
@@ -370,7 +370,7 @@ height:  100%;
 }
 .allf p
 {
-	font-family: Proxima Nova Thin;
+	font-family: Proxima Nova Thin, sans-serif;
 	font-size: 14pt;
 	width: 95%;
 	text-align: justify;
